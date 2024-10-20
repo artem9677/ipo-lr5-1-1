@@ -1,3 +1,5 @@
-string = str(input("Введите строку: "))
+string = str(input("Введите строку: ")) # ввод строки 
 
-print(string.replace("а","о"))
+string = string.lower() # приведение к нижнему регистру
+
+print(string.replace("а","о")) # замена букв и вывод
